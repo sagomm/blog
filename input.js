@@ -1,6 +1,6 @@
 var app = require('koa')();
 var config = require('./config');
-var router = require('./input-router');
+var router = require('./routers/input-router');
 
 // define logger
 app.use(require('koa-logger')());
